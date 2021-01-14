@@ -51,7 +51,7 @@ a{
 
 @media screen and (max-width: 600px) {
     .navbar{
-        height: 100px;
+        height: 20vh;
     }
     ul{
         float:left;
@@ -110,7 +110,7 @@ a{
     text-align: center;
     color: rgb(12, 42, 68);
    
-    padding-top: 20vh ;
+    margin-top: 50px ;
     width: fit-content;
 }
 .btn{
@@ -162,7 +162,7 @@ footer{
     bottom: 0px;
     width: 100vw;
     background: rgb(26, 26, 26);
-    height: 7vh;
+    height: 8vh;
     overflow: hidden;
 
   }
@@ -170,7 +170,7 @@ footer{
     margin: 2px 45vw;
     position: absolute;
     width: 40vw;
-    bottom: 18px;
+    bottom: 25px;
     height: 5vh;
     float: left;
     /* border: 2px solid black; */
