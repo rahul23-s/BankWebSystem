@@ -6,6 +6,7 @@ require('./models/transactionHistory');
 const bodyParser = require('body-parser');
 const User = mongoose.model('User');
 const History = mongoose.model('History');
+const port = process.env.PORT || 8000;
 
 
 
@@ -14,8 +15,8 @@ mongoose.Promise = global.Promise
 mongoose.connect('mongodb+srv://rahul-23s:abc@cluster0.lpbpc.mongodb.net/bankdb?retryWrites=true&w=majority',{useNewUrlParser: true});
 const app = express();
 
-const server = app.listen(3000, () => {
-  console.log(`Express is running on port ${server.address().port}`);
+const server = app.listen(port, () => {
+  console.log(`Express is running on port ${port}`);
 });
 
 
